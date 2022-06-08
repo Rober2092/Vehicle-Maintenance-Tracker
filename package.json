@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Rober2092/Vehicle-Maintenance-Tracker/issues"
   },
-  "homepage": "https://github.com/Rober2092/Vehicle-Maintenance-Tracker#readme"
+  "homepage": "https://github.com/Rober2092/Vehicle-Maintenance-Tracker#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "handlebars": "^4.7.7",
+    "path": "^0.12.7",
+    "sequelize": "^6.20.1"
+  }
 }
