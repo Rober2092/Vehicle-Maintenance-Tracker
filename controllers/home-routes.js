@@ -7,7 +7,7 @@ router.get('/welcome', (req, res) => {
         res.render('welcome', {loggedIn: true});
         return;
     }
-    res.render('homepage');
+    res.render('main');
     return;
 });
 
@@ -17,7 +17,7 @@ router.get('/', (req, res) => {
         return;
     }
 
-    res.render('homepage');
+    res.render('main');
     return;
 });
 
