@@ -1,0 +1,50 @@
+$color-secondary: rgb(44, 86, 110);
+$color-primary: rgb(255, 255, 255);
+$text-color: whitesmoke;
+
+* {
+    font-family: "Libre Baskerville";
+}
+
+body {
+    background-color: $color-primary;
+}
+
+.header-text, footer {
+    color: $text-color;
+}
+
+header, footer, button {
+    background-color: $color-secondary;
+}
+
+.welcome-btn {
+    border: 2px solid $color-secondary;
+}
+
+.welcome-btn h5 {
+    color: $color-secondary;
+}
+
+.welcome-btn:hover {
+    transform: scale(1.03);
+    border: 3px solid $color-secondary;
+}
+
+
+.welcome-header {
+    font-weight: 300;
+}
+
+header {
+    font-weight: 300;
+}
+
+table, th, td {
+    border: 1px solid $color-secondary;
+}
+
+.miles-input {
+    border: 1px solid $color-secondary;
+    color: $color-secondary;
+}
