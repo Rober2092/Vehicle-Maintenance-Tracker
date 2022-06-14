@@ -1,0 +1,39 @@
+<section>
+    <form id="miles_form">
+        {{!-- select date --}}
+            {{!-- <div class="col">
+                <label for="date">Date:</label>
+                <input type="date" id="date_miles" name="date_miles" class="form-control miles-input">
+            </div> --}}
+
+            {{!-- enter mileage --}}
+        
+        <label>Current Mileage:</label>
+        
+        <div class="input-group mb-3">
+            <input name="mileage" type="number" id="miles" class="form-control miles-input" placeholder="30000">
+            <div class="input-group-append">
+                <button id="add-mileage" class="btn btn-outline-primary miles-input" type="button">Submit</button>
+            </div>
+        </div>
+    </form>
+</section>
+
+<div id="mile_book" class="container-fluid" id="table-wrapper">
+    {{!-- <h2 class="table-header">Mileage</h2> --}}
+    <div id="blocks"></div>
+    {{!-- <table id="mile_book" class="container-fluid">
+        <tr>  
+            <th>Date</th>
+            <th>Mileage</th>
+            <th>Conventional Oil Change</th>
+            <th>Synthetic Oil Change</th>
+            <th>Brake Pads</th>
+            <th>Tires</th>
+            <th>Air Filter</th>
+            <th>Delete</th>
+        </tr>
+    </table> --}}
+</div>
+
+<script src="/javascript/add-mileage.js"></script>
