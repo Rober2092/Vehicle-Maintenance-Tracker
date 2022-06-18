@@ -23,7 +23,6 @@ async function signupFormHandler(event) {
       headers: { 'Content-Type': 'application/json' },
     });
 
-    // check the response status
     if (response.ok) {
       const res = await response.json();
       localStorage.setItem('user', JSON.stringify(res.user));
