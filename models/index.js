@@ -1,6 +1,6 @@
-const User = require('./User');
-const Cost = require('./Cost');
-const Maintenance = require('./Maintenance');
+const User = require('./user');
+const Cost = require('./cost');
+const Maintenance = require('./maintenance');
 
 
 // set up relationships
